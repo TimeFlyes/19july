@@ -1,19 +1,132 @@
 <!DOCTYPE html>
 <html lang="ru">
+	
 	<head>
 		<meta charset="utf-8">
 		<title>Контакты</title>
 	</head>
-	<body>
-		<a href="../../index.html" target="_self">Главная</a>
-		<a href="page2.html" target="_self">Биография</a>
-		<a href="page3.html" target="_self">Контакты</a>
 	
-		<h1>Контакты</h1>
-		<a href="skype:with"><img src="../image/Skype.ico" width="100" height="100" alt="Skype"></a>
-		<a href="mailto:lampard@gmail.com"><img src="../image/TheBat.png" width="100" height="100" alt="TheBat"></a>
-		<a href="https://www.instagram.com/franklampard/?hl=ru"><img src="../image/Instagram.png" width="100" height="100" alt="Instagram"></a>
-		<a href="https://www.facebook.com/"><img src="../image/facebook.ico" width="100" height="100" alt="Facebook"></a>
-		<a href="https://twitter.com/franklampard"><img src="../image/Twitter.png" width="100" height="100" alt="Twitter"></a>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li>
+						<a href="../../index.html">Главная</a>
+					</li>
+					<li>
+						<a href="page2.html">Биография</a>	
+					</li>
+					<li>
+						<a href="page3.html">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section>
+				<header>
+					<h1>Контакты</h1>
+				</header>			
+				<p>
+					<a href="skype:with">
+						<img src="../image/Skype.ico" width="50" height="50" alt="Skype">
+					</a>
+					<a href="mailto:lampard@gmail.com"> 
+						<img src="../image/TheBat.png" width="50" height="50" alt="TheBat">
+					</a>
+					<a href="https://www.instagram.com/franklampard/?hl=ru">
+						<img src="../image/Instagram.png" width=50" height="50" alt="Instagram">
+					</a>
+					<a href="https://www.facebook.com/">
+						<img src="../image/facebook.ico" width="50" height="50" alt="Facebook">
+					</a>
+					<a href="https://twitter.com/franklampard">
+						<img src="../image/Twitter.png" width="50" height="50" alt="Twitter">
+					</a>
+				</p>	
+			</section>
+			<section>
+				<header>
+					<h1>Заявка на подключение</h1>
+				</header>
+				<form action="https://mcslayer.com/hillel/post.php" method="post">
+				
+					<label>
+						Имя
+						<input type="text" name="Имя" placeholder="Введите ваше имя" required>
+					</label>
+					<br>
+					<label>
+						Фамилия
+						<input type="text" name="Фамилия" placeholder="Введите вашу фамилию" required>
+					</label>
+					<br>
+
+					<label>
+						e-mail 	
+						<input type="email" name="email" placeholder="yourmail@gmail.com" required>	
+					</label>
+					<br>
+					<br>
+
+					<label>
+						Мужчина
+						<input type="radio" name="sex" value="male" checked>
+					</label>
+				
+					<label>
+						Женщина
+						<input type="radio" name="sex" value="female">
+					</label>
+					<br>
+					<br>
+
+					Я хочу подключить:
+					<br>
+					<label>
+						Интернет
+						<input type="checkbox" name="net" value="Internet" checked="checked">	
+					</label>
+					<br>
+					<label>
+						Кабельное ТВ
+						<input type="checkbox" name="cable" value="tv">
+					</label>
+					<br>
+					<label>
+						Спутниковое ТВ
+						<input type="checkbox" name="sputnikovoe" value="tv">
+					</label>
+					<br>
+					<br>
+
+					Дополнительная информация
+					<br>	
+					<textarea name="message" rows="10" cols="50" placeholder="Текст" wrap="soft"></textarea>	
+					<br>
+					<br>
+					<button type="submit">Отправить</button>
+					<button type="reset">Очистить</button>
+				</form>	
+			</section>
+		</main>				
+
+		<footer>
+			<nav>
+				<ul>
+					<li>
+						<a href="../../index.html">Главная</a>
+					</li>
+					<li>
+						<a href="page2.html">Биография</a>
+					</li>
+					<li>
+						<a href="page3.html">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+		</footer>
 	</body>
+
 </html>
